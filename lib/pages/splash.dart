@@ -30,14 +30,24 @@ class Splash extends StatelessWidget {
                 ),
                 ),
                 ElevatedButton(style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green, fixedSize: Size(350, 20), padding: EdgeInsets.all(5.0)),
+                  backgroundColor: Colors.green, fixedSize: Size(350, 20), 
+                  padding: EdgeInsets.all(5.0)),
                 onPressed: () {
                 }, child: Text('Я хочу зарегистрироваться', style: TextStyle(fontSize: 22))
                 ),
                 ElevatedButton(style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green, fixedSize: Size(350, 20), padding: EdgeInsets.all(5.0)),
+                  backgroundColor: Colors.green, fixedSize: Size(350, 20), 
+                  padding: EdgeInsets.all(5.0)),
                   onPressed: () {
                 }, child: Text('У меня есть аккаунт', style: TextStyle(fontSize: 22))
+                ),
+                Container(
+                  width: 300.0,
+                  height: 300.0,
+                  decoration: new BoxDecoration(
+                  color: Colors.orange,
+                  shape: BoxShape.circle,
+                  ),
                 ),
                  ]
               )
